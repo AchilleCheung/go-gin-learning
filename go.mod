@@ -5,6 +5,7 @@ go 1.16
 require (
 	github.com/OwnLocal/goes v1.0.0 // indirect
 	github.com/astaxie/beego v1.12.3 // indirect
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-ini/ini v1.62.0 // indirect
 	github.com/go-playground/validator/v10 v10.4.1 // indirect
@@ -28,6 +29,7 @@ require (
 replace (
 	github.com/AchilleCheung/go-gin-learning/conf => ../go-gin-learning/conf
 	github.com/AchilleCheung/go-gin-learning/middleware => ../go-gin-learning/middleware
+	github.com/AchilleCheung/go-gin-learning/middleware/jwt => ../go-gin-learning/middleware/jwt
 	github.com/AchilleCheung/go-gin-learning/models => ../go-gin-learning/models
 	github.com/AchilleCheung/go-gin-learning/pkg/e => ../go-gin-learning/pkg/e
 	github.com/AchilleCheung/go-gin-learning/pkg/setting => ../go-gin-learning/pkg/setting
